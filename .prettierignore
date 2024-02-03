@@ -1,0 +1,5 @@
+# Ignore artifacts:
+dist
+
+# avoid dependencies
+node_modules

@@ -1,0 +1,43 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #ef5d30;
+  height: 100%;
+  line-height: 1;
+  padding: 1rem;
+  h1 {
+    margin: 0;
+  }
+  .page-title {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .page-title {
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  h1 {
+    text-align: center;
+  }
+  .page-title {
+    text-align: center;
+  }
+}
